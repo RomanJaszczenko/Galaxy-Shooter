@@ -6,4 +6,6 @@
 
 ### Builds
 
-* [Download Android apk](https://github.com/RomanJaszczenko/Galaxy-Shooter/releases/download/untagged-e6e7d699a9d232913598/ss.apk)
+* [Download Android apk](https://github.com/RomanJaszczenko/Galaxy-Shooter/releases/download/untagged-b6b14618820cf2a71a6b/ss.apk)
+
+
