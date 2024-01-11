@@ -24,7 +24,7 @@ public class PlayerController : MonoBehaviour
     private float nextFireTime;
     private bool canMove = false;
 
-    // Сохраненный угол наклона
+    // Stored inclination angle
     private float currentTiltAngle = 0.0f;
 
     private void Start()
