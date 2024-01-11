@@ -16,7 +16,7 @@ public class EvasiveManeuver : MonoBehaviour
     [Header("Boundary")]
     [SerializeField] private Boundary boundary;
 
-    private GameController gameController;
+    [SerializeField] private GameController gameController;
     private Transform playerTransform;
     private float currentSpeed, targetManeuver;
     private Rigidbody rb;
@@ -30,7 +30,6 @@ public class EvasiveManeuver : MonoBehaviour
     private void InitializeComponents()
     {
         rb = GetComponent<Rigidbody>();
-        gameController = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameController>();
         playerTransform = (!gameController.gameOver) ? GameObject.FindGameObjectWithTag("Player").transform : null;
         currentSpeed = rb.velocity.z;
     }
